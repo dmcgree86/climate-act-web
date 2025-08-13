@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | ClimateAct Analytics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html" class="logo">ClimateAct&nbsp;Analytics</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="factsheet.html">Factsheet</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact-page">
+      <div class="container">
+        <h1>Let’s Talk</h1>
+        <p>
+          Please complete the form below and we’ll be in touch within 3 business
+          days.
+        </p>
+        <form
+          action="mailto:enquiries@climate-act.info"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" required />
+
+          <label for="organisation">Organisation</label>
+          <input
+            type="text"
+            id="organisation"
+            name="Organisation"
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="Message"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <p style="margin-top: 20px;">
+          Alternatively, email us at
+          <a href="mailto:enquiries@climate-act.info">enquiries@climate-act.info</a>.
+          We respond within 3 business days.
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-left">
+          <a href="index.html" class="logo">ClimateAct&nbsp;Analytics</a>
+          <p>&copy;&nbsp;2025 ClimateAct Analytics</p>
+        </div>
+        <div class="footer-right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="factsheet.html">Factsheet</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <p>
+            Contact:
+            <a href="mailto:enquiries@climate-act.info"
+              >enquiries@climate-act.info</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
